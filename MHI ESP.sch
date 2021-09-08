@@ -122,7 +122,7 @@ U 1 1 5F34686C
 P 7350 2300
 F 0 "J1" H 7550 2600 50  0000 R CNN
 F 1 " " H 7322 2233 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7350 2300 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 7350 2300 50  0001 C CNN
 F 3 "~" H 7350 2300 50  0001 C CNN
 	1    7350 2300
 	-1   0    0    -1  
@@ -165,11 +165,11 @@ Text GLabel 4750 4300 2    50   Output ~ 0
 ESP-MISO
 Text GLabel 4600 4400 2    50   Input ~ 0
 ESP-MOSI
-Text GLabel 6700 2300 0    50   Output ~ 0
+Text GLabel 6900 2200 0    50   Output ~ 0
 MHI-SCK
 Text GLabel 6900 2400 0    50   Input ~ 0
 MHI-MISO
-Text GLabel 6900 2200 0    50   Output ~ 0
+Text GLabel 6700 2300 0    50   Output ~ 0
 MHI-MOSI
 Wire Wire Line
 	4600 4200 4500 4200
