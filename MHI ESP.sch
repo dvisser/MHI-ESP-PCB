@@ -433,17 +433,6 @@ F 3 "~" H 5150 4250 50  0001 C CNN
 	1    5150 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Male J2
-U 1 1 613EA0E2
-P 8350 3700
-F 0 "J2" H 8550 4100 50  0000 R CNN
-F 1 "DISPLAY" H 8500 3250 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical" H 8350 3700 50  0001 C CNN
-F 3 "~" H 8350 3700 50  0001 C CNN
-	1    8350 3700
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2450 8150 2450
 Wire Wire Line
@@ -498,65 +487,41 @@ F 3 "~" H 8350 2350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 5950 4050
+Text GLabel 7950 5000 0    50   Output ~ 0
+IRDIN
+Text GLabel 7050 5000 0    50   Input ~ 0
+IRDOUT
 $Comp
-L Connector:Conn_01x08_Male J3
+L Connector:Conn_01x08_Male J2
 U 1 1 613E9E86
 P 8350 4800
-F 0 "J3" H 8550 5200 50  0000 R CNN
-F 1 "CNE" H 8500 4350 50  0000 R CNN
+F 0 "J2" H 8550 5200 50  0000 R CNN
+F 1 "DISPLAY" H 8500 4350 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical" H 8350 4800 50  0001 C CNN
 F 3 "~" H 8350 4800 50  0001 C CNN
 	1    8350 4800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 5200 7850 4100
+	7950 5000 8150 5000
+NoConn ~ 8150 4500
+NoConn ~ 8150 4600
+NoConn ~ 8150 4700
+NoConn ~ 8150 4800
+NoConn ~ 8150 4900
+NoConn ~ 8150 5100
+NoConn ~ 8150 5200
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 614048E7
+P 7450 5000
+F 0 "J3" H 7422 4978 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 7422 5023 50  0001 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 7450 5000 50  0001 C CNN
+F 3 "~" H 7450 5000 50  0001 C CNN
+	1    7450 5000
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7850 4100 8150 4100
-Wire Wire Line
-	7850 5200 8150 5200
-Wire Wire Line
-	7750 4000 7750 5100
-Wire Wire Line
-	7750 5100 8150 5100
-Wire Wire Line
-	7750 4000 8150 4000
-Wire Wire Line
-	7650 3800 7650 4900
-Wire Wire Line
-	7650 4900 8150 4900
-Wire Wire Line
-	7650 3800 8150 3800
-Wire Wire Line
-	7550 3700 7550 4800
-Wire Wire Line
-	7550 4800 8150 4800
-Wire Wire Line
-	7550 3700 8150 3700
-Wire Wire Line
-	7450 3600 7450 4700
-Wire Wire Line
-	7450 4700 8150 4700
-Wire Wire Line
-	7450 3600 8150 3600
-Wire Wire Line
-	7350 3500 7350 4600
-Wire Wire Line
-	7350 4600 8150 4600
-Wire Wire Line
-	7350 3500 8150 3500
-Wire Wire Line
-	7250 3400 7250 4500
-Wire Wire Line
-	7250 4500 8150 4500
-Wire Wire Line
-	7250 3400 8150 3400
-Text GLabel 8000 3900 0    50   Output ~ 0
-IRDIN
-Wire Wire Line
-	8000 3900 8150 3900
-Text GLabel 7550 5000 0    50   Input ~ 0
-IRDOUT
-Wire Wire Line
-	7550 5000 8150 5000
+	7050 5000 7250 5000
 $EndSCHEMATC
