@@ -1,0 +1,35 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "2060-451{slash}998-404" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "X" (id 0) (at -10.16 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "2060-451{slash}998-404" (id 1) (at -10.16 -8.89 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "P-2060-451/998-404" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "2060-451{slash}998-404_0_0"
+      (rectangle (start -10.16 -3.81) (end 10.16 3.81)
+        (stroke (width 0.2)) (fill (type background))
+      )
+      (pin bidirectional inverted (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1.2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional inverted (at 2.54 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1.1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "wago")(type "KiCad")(uri "${KIPRJMOD}/2060-452_998-404.kicad_sym")(options "")(descr ""))
+  (lib (name "wago1")(type "KiCad")(uri "${KIPRJMOD}/2060-451_998-404.kicad_sym")(options "")(descr ""))
+)
